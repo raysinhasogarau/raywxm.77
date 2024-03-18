@@ -7,26 +7,37 @@
 
         <Grid>
         <Grid.RowDefinitions>
+        <RowDefinition Height="60"/>
         <RowDefinition Height="*"/>
-        <RowDefinition Height="*"/>
+        <RowDefinition Height="60"/>
+        <RowDefinition Height="60"/>
         </Grid.RowDefinitions>
 
                 
                 <Image Source="frog.jpg"
-                Grid.RowSpan="2"
-                Aspect="AspectFill"/>
+                Grid.RowSpan="4"
+                Aspect="AspectFill"
+                />
                 
                 
                 
                 <Button Text ="Inicio"
                     Margin="0,0,10,0"
-                    Grid.Row="0"
+                    Grid.Row="2"
                     HeightRequest="50"
                     CornerRadius="25"
-                    BackgroundColor="#b2614d"
+                    BackgroundColor="#58b548"
                     TextColor="White"
                     FontSize="18"
-                    />/>
-                
+                    />
+
+                <Button Text ="Sobre "
+                    Margin="0,0,10,0"
+                    Grid.Row="3"
+                    HeightRequest="50"
+                    CornerRadius="25"
+                    BackgroundColor="#58b548"
+                    TextColor="White"
+                    FontSize="18"/>
     </Grid>
 </ContentPage>
