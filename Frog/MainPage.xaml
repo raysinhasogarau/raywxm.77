@@ -24,6 +24,7 @@
                 <Button Text ="Inicio"
                     Margin="0,0,10,0"
                     Grid.Row="2"
+                    Clicked="raywxm"
                     HeightRequest="50"
                     CornerRadius="25"
                     BackgroundColor="#58b548"

@@ -8,6 +8,9 @@ public partial class MainPage : ContentPage
 	{
 		InitializeComponent();
 	}
-}
-	
+private void raywxm(object sender, EventArgs args)
+  {
+      Application.Current.MainPage = new historyestep.();
+  }
 
+}
